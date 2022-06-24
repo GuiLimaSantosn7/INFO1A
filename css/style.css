@@ -1,0 +1,62 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(49, 47, 47);
+}
+
+body p {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+.container {
+    width: 1440px;
+    max-width: 100%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+nav {
+    width: 100%;
+    padding: 15px 0;
+    background-color: rgb(0, 0, 0);
+    float: left;
+}
+
+nav h1 {
+    float: left;
+}
+
+nav h1 a img {
+    width: 100px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    float: left;
+    padding: 35px 15px;
+}
+
+nav ul li a {
+    background-color: rgb(255, 153, 0);
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgb(179, 111, 9);
+    color: black;
+}
